@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="./register.css">
+
+</head>
+<body>
+    <div class="form-display">
+    <form onsubmit="return validate()">
+     <h2>Registration Form</h2>
+    <div class="form_set">
+    <label for="Firstname">First Name</label>
+    <input type="text" id="Firstname" placeholder="First Name">
+    </div>
+    <div class="form_set">
+        <label for="Lastname">Last Name</label>
+   <input type="text" id="Lastname" placeholder="Last Name">
+</div>
+<div class="form_set">
+    <label for="college">College</label>
+    <input type="text" id="college" placeholder="Enter your college">
+</div>
+<div class="form_set">
+    <label for="email">Email</label>
+    <input type="text" id="email" placeholder="Enter your email">
+</div>
+<div class="form_set">
+    <label for="phone">Contact</label>
+    <input type="tel" id="phone" placeholder="Phone">
+</div>
+<div class="form_set">
+    <label for="city">City</label>
+    <select name="" id="city">
+        <option value="#" disabled selected>Select city</option>
+        <option value="ktm">Kathmandu</option>
+        <option value="bat">Bhakatpur</option>
+        <option value="lal">Lalitpur</option>
+    </select>
+</div>
+<div class="form_set">
+    <label for="course">Courses</label>
+                <select name="" id="course">
+                    <option value="#" disabled selected>Select courses</option>
+                    <option value="java">BCA</option>
+                    <option value="stat">BBA</option>
+                    <option value="web">Bsc.it</option>
+                    <option value="sad">BBM</option>
+                </select>
+</div>
+<div class="form_set">
+    <label for="yes">Are you member of this college?</label>
+                <div class="memb">
+                    <input type="radio" name="member"  id="yes">
+                    <label for="yes">yes</label>
+                </div>
+                <div class="memb">
+                    <input type="radio" name="member"  id="No">
+                    <label for="No">no</label>
+                </div>
+</div>
+<div class="form_set">
+   <button>Submit</button>
+
+</div>
+</form>
+</div>
+    <script src="./register.js">
+
+
+    </script>
+
+</body>
+</html>
